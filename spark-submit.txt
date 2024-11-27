@@ -1,0 +1,1 @@
+C:\SparkApps\SentimentAnalyzer\Test>spark-submit --class sgbit.cse.Main  --conf spark.local.dir="d:\temp" --conf spark.cleaner.referenceTracking=false  --conf spark.cleaner.periodicGC.interval=560s  --conf spark.local.dir="D:/temp/spark_${app.id}" out\artifacts\Test_jar\Test.jar
